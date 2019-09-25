@@ -1,14 +1,10 @@
 import React from 'react';
-import Carousel from './Carousel'
-import Header from './Header'
-import Cards from './Cards'
+import Home from './pages/Home'
 
 function App() {
   return (
     <div>
-      <Header />
-      <Carousel />
-      <Cards />
+      <Home />
     </div>
   );
 }

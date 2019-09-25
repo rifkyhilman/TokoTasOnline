@@ -1,7 +1,20 @@
 .input {
-    margin-left: 50vh;
+    width: 60rem;
 }
 
-.mr-sm-2 {
-    width:50vh;
+.icon {
+    color: white;
+    height: 25px;
+    width: 25px;
+}
+
+.semua {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tombol {
+    background-color: #343a40;
+    border: none;
 }
