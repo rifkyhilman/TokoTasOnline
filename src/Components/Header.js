@@ -2,29 +2,21 @@ import React from 'react'
 import { Navbar, FormControl, Button, InputGroup, OverlayTrigger } from 'react-bootstrap'
 import { MdSearch } from 'react-icons/md'
 import { FaShoppingCart } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const renderTooltip = props => (
-  <div
-    {...props}
-    style={{
-      backgroundColor: 'black',
-      padding: '2px 10px',
-      color: 'white',
-      borderRadius: 3,
-      ...props.style,
-    }}
-  >
-    Simple tooltip
+  <div className="belanja" {...props}>
+    YOUR CART IS EMPTY
   </div>
 );
 
 const Example = () => (
-  <OverlayTrigger
+  <OverlayTrigger 
     placement="bottom"
     delay={{ show: 250, hide: 400 }}
     overlay={renderTooltip}
   >
-    <Button className="tombol" variant="success"><FaShoppingCart className="icon" /></Button>
+    <Button className="tombol"><FaShoppingCart className="icon" /></Button>
   </OverlayTrigger>
 );
 
@@ -33,9 +25,9 @@ class Header extends React.Component {
     render(){
         return (
           <Navbar className="semua" bg="dark" variant="dark" inverse fixed="top">
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Link  to='/' className="navbar-brand">Navbar</Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <InputGroup className="input mb-3">
+            <InputGroup className="input1 mb-3">
                 <FormControl
                   placeholder="Cari Produk"
                   aria-label="Recipient's username"
