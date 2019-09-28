@@ -8,7 +8,7 @@ class Froms extends React.Component {
         return (
         <Form className="body2 container">
           <Col xs={5}>
-            <h2 className="judul">Create Account</h2>
+            <h2 className="label2">Create Account</h2>
             <Form.Group controlId="formBasicEmail">
               <Form.Label className="judul2">Firts Name</Form.Label>
               <Form.Control className="input2" size="lg" type="text" />
@@ -26,11 +26,11 @@ class Froms extends React.Component {
               <Form.Control className="input2" size="lg" type="password" />
             </Form.Group>
             <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Check me out" />
+                <Form.Check type="checkbox" label="SUBSCRIBE" />
             </Form.Group>
             <div className="barispsw2">
-            <Button variant="dark" type="submit">
-              Signup
+            <Button className="btnsignup" variant="dark" type="submit">
+              SIGN UP
             </Button>
             <Form.Text className="text-muted">
                 New Customer? <Link  to='/signin'>Signin</Link>

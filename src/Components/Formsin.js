@@ -6,6 +6,7 @@ class Froms extends React.Component {
         return (
         <Form className="body container">
             <Col xs={5}>
+            <h2 className="label">CUSTOMER LOGIN</h2>
             <Form.Group controlId="formBasicEmail">
               <Form.Label className="judul">Email</Form.Label>
               <Form.Control className="input2" size="lg" type="text" />

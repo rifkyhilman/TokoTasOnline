@@ -1,5 +1,6 @@
 .input1 {
-    width: 60rem;
+    width: 50rem;
+    margin-top: 10px;
 }
 
 .icon {
@@ -8,20 +9,21 @@
     width: 25px;
 }
 
-.logo {
-    font-size: 100px;
-}
-
 .semua {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: table;
 }
 
-.tombol {
-    background-color: #343a40;
+.signup  {
     color: white;
-    border: none;
+}
+
+.signin {
+    color: #343a40;
+}
+
+.btn-signup {
+    border: 1px solid white;
+    margin-left: 3px;
 }
 
 .tombol:hover {

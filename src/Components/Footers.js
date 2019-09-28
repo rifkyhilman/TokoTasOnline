@@ -7,6 +7,7 @@ class Footers extends React.Component {
             <div className="kaki main-footer">
                 <div className="container">
                     <div className="row">
+                    <div>Navbar</div>
                         <div className="col-md-3 col-sm-6">
                             <h4>Contact</h4>
                             <ul className="list-unstyled">

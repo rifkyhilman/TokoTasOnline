@@ -1,5 +1,8 @@
 import React from 'react'
-import { Navbar, FormControl, Button, InputGroup, OverlayTrigger } from 'react-bootstrap'
+import { Navbar, FormControl, Button, 
+         InputGroup, OverlayTrigger, Nav, 
+         ButtonToolbar, DropdownButton, Dropdown
+        } from 'react-bootstrap'
 import { MdSearch } from 'react-icons/md'
 import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
@@ -16,7 +19,7 @@ const Example = () => (
     delay={{ show: 250, hide: 400 }}
     overlay={renderTooltip}
   >
-    <Button className="tombol"><FaShoppingCart className="icon" /></Button>
+    <FaShoppingCart  className="icon" />
   </OverlayTrigger>
 );
 
@@ -24,10 +27,11 @@ const Example = () => (
 class Header extends React.Component {
     render(){
         return (
-          <Navbar className="semua" bg="dark" variant="dark" inverse fixed="top">
-            <Link  to='/' className="navbar-brand">Navbar</Link>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <InputGroup className="input1 mb-3">
+        <Navbar bg="dark" variant="dark" fixed="top">
+          <div className="semua container">
+          <Link className="navbar-brand" to="/" >Navbar</Link>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <InputGroup className="input1 mb-3">
                 <FormControl
                   placeholder="Cari Produk"
                   aria-label="Recipient's username"
@@ -38,9 +42,14 @@ class Header extends React.Component {
                     <MdSearch />
                   </Button>
                 </InputGroup.Append>
-            </InputGroup>
-            <Example/>
-          </Navbar>
+          </InputGroup>
+          <Example />
+          <ButtonToolbar>
+            <Button className="btn-sign" variant="light"><Link className="signin" to="/signin">Signin</Link></Button>
+            <Button className="btn-signup" variant="dark"><Link className="signup" to="/signup">Signup</Link></Button>
+          </ButtonToolbar>
+          </div>
+        </Navbar>
         )
     }
 }
