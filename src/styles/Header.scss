@@ -41,3 +41,14 @@
 .belanja:hover {
     background-color: #343a40;
 }
+
+.nav-menu {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    .mini-nav {
+        height: 30px;
+    }
+}
