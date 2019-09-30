@@ -5,8 +5,10 @@ import { Navbar, FormControl, Button,
          Row, Col
         } from 'react-bootstrap'
 import { MdSearch } from 'react-icons/md'
+import {FaInstagram } from 'react-icons/fa'
 import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+
 
 const renderTooltip = props => (
   <div className="belanja" {...props}>
@@ -30,6 +32,9 @@ class Header extends React.Component {
         return (
         <div className="nav-menu">
           <Navbar bg="dark" variant="dark" className="mini-nav">
+            <Nav className="mr-auto">
+              <Link to="/" className="icon"><FaInstagram /></Link>
+            </Nav>
           <Nav className="ml-auto">
             <Nav.Link href="#home">Promo</Nav.Link>
             <Nav.Link href="#features">Pusat Bantuan</Nav.Link>

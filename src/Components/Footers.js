@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 class Footers extends React.Component {
     render() {
@@ -9,27 +10,29 @@ class Footers extends React.Component {
                     <div className="row">
                     {/* <div>Navbar</div> */}
                         <div className="col-md-3 col-sm-6">
-                            <h4>Contact</h4>
                             <ul className="list-unstyled">
-                                <li>loream1</li>
-                                <li>loream2</li>
-                                <li>loream3</li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
                             </ul>
                         </div>
                         <div className="col-md-3 col-sm-6">
-                            <h4>Contact</h4>
                             <ul className="list-unstyled">
-                                <li>loream1</li>
-                                <li>loream2</li>
-                                <li>loream3</li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
                             </ul>
                         </div>
                         <div className="col-md-3 col-sm-6">
-                            <h4>Contact</h4>
                             <ul className="list-unstyled">
-                                <li>loream1</li>
-                                <li>loream2</li>
-                                <li>loream3</li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
+                                <li><Link class="text-muted">loream1</Link></li>
                             </ul>
                         </div>
                     </div>
