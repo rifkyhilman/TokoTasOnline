@@ -36,9 +36,9 @@ class Header extends React.Component {
               <Link to="/" className="icon"><FaInstagram /></Link>
             </Nav>
           <Nav className="ml-auto">
-            <Nav.Link href="#home">Promo</Nav.Link>
-            <Nav.Link href="#features">Pusat Bantuan</Nav.Link>
-            <Nav.Link href="#pricing">Mulai Berjualan</Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-secondary" to="/">Promo</Link></Nav.Link>
+            <Nav.Link><Link class="text-decoration-none text-secondary" to="/PusatBantuan">Pusat Bantuan</Link></Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-secondary" to="/">Mulai Berjualan</Link></Nav.Link>
           </Nav>
         </Navbar>
         <Navbar bg="dark" variant="dark">
