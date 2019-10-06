@@ -6,11 +6,11 @@ class carousel extends React.Component {
 
     render() {
         return (
-            <Carousel interval={2000}>
+            <Carousel className="mr-3 ml-3" interval={3000}>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://images.unsplash.com/photo-1520519407919-a4f7d025def3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80"
+                    src="https://images.unsplash.com/photo-1511212269845-02902bfd3ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -33,7 +33,7 @@ class carousel extends React.Component {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://images.unsplash.com/photo-1516201407043-a9bc36cab889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    src="https://images.unsplash.com/photo-1465966670031-e4ea86442ed5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80"
                     alt="Third slide"
                     />
 

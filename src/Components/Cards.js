@@ -7,7 +7,7 @@ class Cards extends React.Component {
             <Container>
                 <Row>
                     <Col>
-                        <Card className="card text-center">
+                        <Card className="card text-center" >
                             <Card.Img variant="top" src="https://images.unsplash.com/photo-1544816155-12df9643f363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80" />
                             <Card.Body>
                                 <Card.Title class="font-weight-bold"> LITE - NO. 30 </Card.Title>

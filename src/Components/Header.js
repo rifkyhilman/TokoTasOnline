@@ -42,7 +42,7 @@ class Header extends React.Component {
           </Nav>
         </Navbar>
         <Navbar bg="dark" variant="dark">
-          <Link className="navbar-brand mb-2" to="/" >Tokopedia</Link>
+          <Link className="navbar-brand mb-1" to="/" >Crowded</Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <ButtonToolbar>
             {['bottom'].map(placement => (
@@ -55,21 +55,59 @@ class Header extends React.Component {
                     <Popover.Content>
                     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                         <Row>
-                          <Col sm={3}>
-                            <Nav variant="pills" className="flex-column">
+                          <Col class="overflow-auto text-white bg-dark">
+                            <Nav bg="dark" variant="pills" className="flex-column">
                               <Nav.Item>
-                                <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                                <Nav.Link eventKey="Satu">Tas</Nav.Link>
                               </Nav.Item>
                               <Nav.Item>
-                                <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                                <Nav.Link eventKey="Dua">Hooddie</Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link eventKey="Tiga">Baju</Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link eventKey="Empat">Topi</Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link eventKey="Lima">Jaket</Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link eventKey="Enam">Celana</Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link eventKey="Tujuh">Gelang</Nav.Link>
+                              </Nav.Item>
+                              <Nav.Item>
+                                <Nav.Link eventKey="Delapan">Jam Tangan</Nav.Link>
                               </Nav.Item>
                             </Nav>
                           </Col>
-                          <Col sm={9}>
+                          <Col>
                             <Tab.Content>
-                              <Tab.Pane eventKey="first">
+                              <Tab.Pane eventKey="Satu">
+                                <p>Hello world</p>
                               </Tab.Pane>
-                              <Tab.Pane eventKey="second">
+                              <Tab.Pane eventKey="Dua">
+                                <p>Welcome back to loby gaming</p>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="Tiga">
+                                <p>Welcome back to loby gaming</p>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="Empat">
+                                <p>Welcome back to loby gaming</p>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="Lima">
+                                <p>Welcome back to loby gaming</p>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="Enam">
+                                <p>Welcome back to loby gaming</p>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="Tujuh">
+                                <p>Welcome back to loby gaming</p>
+                              </Tab.Pane>
+                              <Tab.Pane eventKey="Delapan">
+                                <p>Welcome back to loby gaming</p>
                               </Tab.Pane>
                             </Tab.Content>
                           </Col>

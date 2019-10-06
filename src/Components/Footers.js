@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Nav } from 'react-bootstrap'
 
 class Footers extends React.Component {
     render() {
@@ -8,8 +9,11 @@ class Footers extends React.Component {
             <div className="kaki main-footer">
                 <div className="container">
                     <div className="row">
+                        <div>
+                            <h2 className="navbar-brand mb-1" to="/" >Crowded</h2>
+                        </div>
                     {/* <div>Navbar</div> */}
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3 ml-auto">
                             <ul className="list-unstyled">
                                 <li><Link class="text-muted">loream1</Link></li>
                                 <li><Link class="text-muted">loream1</Link></li>
@@ -17,7 +21,7 @@ class Footers extends React.Component {
                                 <li><Link class="text-muted">loream1</Link></li>
                             </ul>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3">
                             <ul className="list-unstyled">
                                 <li><Link class="text-muted">loream1</Link></li>
                                 <li><Link class="text-muted">loream1</Link></li>
@@ -26,7 +30,7 @@ class Footers extends React.Component {
                                 <li><Link class="text-muted">loream1</Link></li>
                             </ul>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3">
                             <ul className="list-unstyled">
                                 <li><Link class="text-muted">loream1</Link></li>
                                 <li><Link class="text-muted">loream1</Link></li>
