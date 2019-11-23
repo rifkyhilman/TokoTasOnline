@@ -26,7 +26,11 @@ class Bantuan extends React.Component {
                             Masuk untuk mendapat bantuan terkait transaksi Anda
                         </h6>
                         <Button className="h-25 d-inline-block border border-light ml-auto" variant="dark">Masuk</Button>
-                            <Button className="h-25 d-inline-block ml-1 border border-secondary" variant="light">Tidak Dapat Masuk ?</Button>
+                        <Button className="h-25 d-inline-block ml-1 border border-secondary" variant="light">Tidak Dapat Masuk ?</Button>
+                    </div>
+                    <div className="row ml-4 mr-4 mt-5">
+                        <h3>Pelajari FAQ</h3>
+                        <Button className="h-25 d-inline-block border border-light ml-5" variant="dark">Lihat selengkapnya</Button>
                     </div>
                 </div>
         )

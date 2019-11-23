@@ -135,8 +135,8 @@ class Header extends React.Component {
             <Example/>
           </div> */}
           <div className="ml-2">
-            <Button className="h-25 d-inline-block" size="sm" variant="light">Signin</Button>
-            <Button className="h-25 d-inline-block border border-light ml-1" size="sm" variant="dark">Signup</Button>
+            <Button className="h-25 d-inline-block" size="sm" variant="light"><Link to="/Signin">Signin</Link></Button>
+            <Button className="h-25 d-inline-block border border-light ml-1" size="sm" variant="dark"><Link to="/Signup">Signup</Link></Button>
           </div>
         </Navbar>
         </div>
