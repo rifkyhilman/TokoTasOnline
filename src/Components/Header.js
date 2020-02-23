@@ -44,34 +44,34 @@ class Header extends React.Component {
           <Link className="navbar-brand mb-1" to="/" >Crowded</Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <div className="d-flex justify-content-center">
-            <DropdownButton title="T-Shirt" className="p-3 mb-2 bg-transparent text-dark" variant="dark">
+            <DropdownButton title="T-Shirt" className="p-3 bg-transparent text-dark" variant="dark">
               <Dropdown.Item as="button">Action</Dropdown.Item>
               <Dropdown.Item as="button">Another action</Dropdown.Item>
               <Dropdown.Item as="button">Something else</Dropdown.Item>
             </DropdownButton>
-            <DropdownButton title="Accecoris" className="p-3 mb-2 bg-transparent text-dark" variant="dark">
+            <DropdownButton title="Accecoris" className="p-3 bg-transparent text-dark" variant="dark">
               <Dropdown.Item as="button">Action</Dropdown.Item>
               <Dropdown.Item as="button">Another action</Dropdown.Item>
               <Dropdown.Item as="button">Something else</Dropdown.Item>
             </DropdownButton>
-            <DropdownButton title="Jacket" className="p-3 mb-2 bg-transparent text-dark" variant="dark">
+            <DropdownButton title="Jacket" className="p-3 bg-transparent text-dark" variant="dark">
               <Dropdown.Item as="button">Action</Dropdown.Item>
               <Dropdown.Item as="button">Another action</Dropdown.Item>
               <Dropdown.Item as="button">Something else</Dropdown.Item>
             </DropdownButton>
-            <DropdownButton title="Bag" className="p-3 mb-2 bg-transparent text-dark" variant="dark">
+            <DropdownButton title="Bag" className="p-3 bg-transparent text-dark" variant="dark">
               <Dropdown.Item as="button">Action</Dropdown.Item>
               <Dropdown.Item as="button">Another action</Dropdown.Item>
               <Dropdown.Item as="button">Something else</Dropdown.Item>
             </DropdownButton>
-            <DropdownButton title="Best seller" className="p-3 mb-2 bg-transparent text-dark" variant="dark">
+            <DropdownButton title="Best seller" className="p-3 bg-transparent text-dark" variant="dark">
               <Dropdown.Item as="button">Action</Dropdown.Item>
               <Dropdown.Item as="button">Another action</Dropdown.Item>
               <Dropdown.Item as="button">Something else</Dropdown.Item>
             </DropdownButton>
           </div>
-          <div className="ml-2">
-            <Link to="/Signin"><Button className="h-25 d-inline-block" size="sm" variant="light">Signin</Button></Link>
+          <div className="ml-5">
+            <Link to="/Signin"><Button className="h-25 d-inline-block ml-5" size="sm" variant="light">Signin</Button></Link>
             <Link to="/Signup"><Button className="h-25 d-inline-block border border-light ml-1" size="sm" variant="dark">Signup</Button></Link>
           </div>
         </Navbar>
