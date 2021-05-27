@@ -71,8 +71,8 @@ class Header extends React.Component {
             </DropdownButton>
           </div>
           <div className="ml-5">
-            <Link to="/Signin"><Button className="h-25 d-inline-block ml-5" size="sm" variant="light">Signin</Button></Link>
-            <Link to="/Signup"><Button className="h-25 d-inline-block border border-light ml-1" size="sm" variant="dark">Signup</Button></Link>
+            <Link to="/Signin"><Button className="h-25 d-inline-block ml-5" size="sm" variant="light">Sign in</Button></Link>
+            <Link to="/Signup"><Button className="h-25 d-inline-block border border-light ml-1" size="sm" variant="dark">Sign up</Button></Link>
           </div>
         </Navbar>
       </div>
