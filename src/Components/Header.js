@@ -36,14 +36,14 @@ class Header extends React.Component {
           </Nav>
           <Nav className="ml-auto">
             <Nav.Link><Link className="text-decoration-none text-light" to="/">Promo</Link></Nav.Link>
-            <Nav.Link><Link class="text-decoration-none text-light" to="/PusatBantuan">Pusat Bantuan</Link></Nav.Link>
+            <Nav.Link><Link className="text-decoration-none text-light" to="/PusatBantuan">Pusat Bantuan</Link></Nav.Link>
             <Nav.Link><Link className="text-decoration-none text-light" to="/">Mulai Berjualan</Link></Nav.Link>
           </Nav>
         </Navbar>
         <Navbar bg="dark" variant="dark">
           <Link className="navbar-brand mb-1" to="/" >Crowded</Link>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <div className="d-flex justify-content-center">
+          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+          <div className="d-flex justify-content-center ml-5">
             <DropdownButton title="T-Shirt" className="p-3 bg-transparent text-dark" variant="dark">
               <Dropdown.Item as="button">Action</Dropdown.Item>
               <Dropdown.Item as="button">Another action</Dropdown.Item>
@@ -70,10 +70,14 @@ class Header extends React.Component {
               <Dropdown.Item as="button">Something else</Dropdown.Item>
             </DropdownButton>
           </div>
-          <div className="ml-5">
-            <Link to="/Signin"><Button className="h-25 d-inline-block ml-5" size="sm" variant="light">Sign in</Button></Link>
-            <Link to="/Signup"><Button className="h-25 d-inline-block border border-light ml-1" size="sm" variant="dark">Sign up</Button></Link>
-          </div>
+          <Nav className="ml-auto">
+            <Link to="/Signin">
+              <Button size="sm" variant="info">Sign in</Button>
+            </Link>
+            <Link to="/Signup" className="ml-2">
+              <Button className="mr-2" size="sm" variant="outline-light">Sign up</Button>
+            </Link>
+          </Nav>
         </Navbar>
       </div>
     )
