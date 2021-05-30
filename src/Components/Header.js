@@ -3,7 +3,7 @@ import {
   Navbar, Button,
   OverlayTrigger, Nav, DropdownButton, Dropdown
 } from 'react-bootstrap'
-import { MdSearch } from 'react-icons/md'
+// import { MdSearch } from 'react-icons/md'
 import { FaInstagram } from 'react-icons/fa'
 import { FaShoppingCart } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
