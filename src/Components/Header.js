@@ -41,41 +41,45 @@ class Header extends React.Component {
           </Nav>
         </Navbar>
         <Navbar bg="dark" variant="dark">
-          <Link className="navbar-brand mb-1" to="/" >Crowded</Link>
+          <Nav>
+            <Link className="navbar-brand mb-1" to="/" >Crowded</Link>
+          </Nav>
           {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
           <div className="d-flex justify-content-center ml-5">
-            <DropdownButton title="T-Shirt" className="p-3 bg-transparent text-dark" variant="dark">
-              <Dropdown.Item as="button">Action</Dropdown.Item>
-              <Dropdown.Item as="button">Another action</Dropdown.Item>
-              <Dropdown.Item as="button">Something else</Dropdown.Item>
-            </DropdownButton>
-            <DropdownButton title="Accecoris" className="p-3 bg-transparent text-dark" variant="dark">
-              <Dropdown.Item as="button">Action</Dropdown.Item>
-              <Dropdown.Item as="button">Another action</Dropdown.Item>
-              <Dropdown.Item as="button">Something else</Dropdown.Item>
-            </DropdownButton>
-            <DropdownButton title="Jacket" className="p-3 bg-transparent text-dark" variant="dark">
-              <Dropdown.Item as="button">Action</Dropdown.Item>
-              <Dropdown.Item as="button">Another action</Dropdown.Item>
-              <Dropdown.Item as="button">Something else</Dropdown.Item>
-            </DropdownButton>
-            <DropdownButton title="Bag" className="p-3 bg-transparent text-dark" variant="dark">
-              <Dropdown.Item as="button">Action</Dropdown.Item>
-              <Dropdown.Item as="button">Another action</Dropdown.Item>
-              <Dropdown.Item as="button">Something else</Dropdown.Item>
-            </DropdownButton>
-            <DropdownButton title="Best seller" className="p-3 bg-transparent text-dark" variant="dark">
-              <Dropdown.Item as="button">Action</Dropdown.Item>
-              <Dropdown.Item as="button">Another action</Dropdown.Item>
-              <Dropdown.Item as="button">Something else</Dropdown.Item>
-            </DropdownButton>
+            <Nav>
+              <DropdownButton title="Kaos" className="p-3 bg-transparent text-dark" variant="dark">
+                <Dropdown.Item as="button">Action</Dropdown.Item>
+                <Dropdown.Item as="button">Another action</Dropdown.Item>
+                <Dropdown.Item as="button">Something else</Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton title="Accecoris" className="p-3 bg-transparent text-dark" variant="dark">
+                <Dropdown.Item as="button">Action</Dropdown.Item>
+                <Dropdown.Item as="button">Another action</Dropdown.Item>
+                <Dropdown.Item as="button">Something else</Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton title="Jacket" className="p-3 bg-transparent text-dark" variant="dark">
+                <Dropdown.Item as="button">Action</Dropdown.Item>
+                <Dropdown.Item as="button">Another action</Dropdown.Item>
+                <Dropdown.Item as="button">Something else</Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton title="Tas" className="p-3 bg-transparent text-dark" variant="dark">
+                <Dropdown.Item as="button">Action</Dropdown.Item>
+                <Dropdown.Item as="button">Another action</Dropdown.Item>
+                <Dropdown.Item as="button">Something else</Dropdown.Item>
+              </DropdownButton>
+              <DropdownButton title="Best seller" className="p-3 bg-transparent text-dark" variant="dark">
+                <Dropdown.Item as="button">Action</Dropdown.Item>
+                <Dropdown.Item as="button">Another action</Dropdown.Item>
+                <Dropdown.Item as="button">Something else</Dropdown.Item>
+              </DropdownButton>
+            </Nav>
           </div>
           <Nav className="ml-auto">
             <Link to="/Signin">
-              <Button size="sm" variant="info">Sign in</Button>
+              <Button size="sm" variant="outline-light">Masuk</Button>
             </Link>
             <Link to="/Signup" className="ml-2">
-              <Button className="mr-2" size="sm" variant="outline-light">Sign up</Button>
+              <Button className="mr-2" size="sm" variant="info">Daftar</Button>
             </Link>
           </Nav>
         </Navbar>

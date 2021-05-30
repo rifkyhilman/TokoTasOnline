@@ -1,37 +1,38 @@
 import React from 'react'
 import { Form, Button, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 class Froms extends React.Component {
-    render() {
-        return (
-        <Form className="body container">
-            <Col xs={5}>
-            <h2 className="label">CUSTOMER LOGIN</h2>
-            <Form.Group controlId="formBasicEmail">
-              <Form.Label className="judul">Email</Form.Label>
-              <Form.Control className="input2" size="lg" type="text" />
-            </Form.Group>
-            <Form.Group controlId="formBasicPassword">
+  render() {
+    return (
+      <Form className="body container">
+        <Col xs={5}>
+          <h2 className="label">CUSTOMER LOGIN</h2>
+          <Form.Group controlId="formBasicEmail">
+            <Form.Label className="judul">Email</Form.Label>
+            <Form.Control className="input2" size="lg" type="text" />
+          </Form.Group>
+          <Form.Group controlId="formBasicPassword">
             <div className="barispsw">
               <Form.Label className="judul">Password</Form.Label>
-                <Form.Text className="text-muted">
+              {/* <Form.Text className="text-muted">
                     Forgot your password?
-                </Form.Text>
+                </Form.Text> */}
             </div>
-              <Form.Control className="input2" size="lg" type="password" />
-            </Form.Group>
-            <div className="barispsw">
+            <Form.Control className="input2" size="lg" type="password" />
+          </Form.Group>
+          <div className="barispsw">
             <Button variant="dark" type="submit">
               Login
             </Button>
             <Form.Text className="text-muted">
-                New Customer? 
+              New Customer? <Link to='/signup'>Sign Up</Link>
             </Form.Text>
-            </div>
-            </Col>
-          </Form>
-        )
-    }
+          </div>
+        </Col>
+      </Form>
+    )
+  }
 }
 
 export default Froms
